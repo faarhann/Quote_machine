@@ -1,6 +1,5 @@
 $(document).ready(function(){
 
-
 $("#btn").on("click", function() {
   $.ajaxSetup({ cache: false });
   $("#quote").css("background", "#2196F3");
